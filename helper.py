@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from catboost import CatBoostRegressor
 
 # load dataset
-prop = pd.read_csv("Properties.csv")
+house = pd.read_csv("Properties.csv")
 
 # Renaming some cities properly to aid our prediciton perform better
 house['city'].replace('North', 'Isheri North', inplace=True)
