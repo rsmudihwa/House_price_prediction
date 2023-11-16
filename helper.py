@@ -64,7 +64,7 @@ house['flat_flag'] = house['description'].apply(lambda x: len([c for c in str(x)
 house = house[~(house['title'].str.contains('office', case=False))]
 
 # Dropping irrelevant features
-house2 = house.house(['page','title', 'description', 'location','garage'], axis='columns')
+house2 = house.drop(['page','title', 'description', 'location','garage'], axis='columns')
 
 house4 = house2[~(house2['price']>house2['price'].quantile(0.95))]
 
