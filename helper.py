@@ -161,7 +161,7 @@ def  main():
         result = predict_price(city,bedrooms,bathrooms,toilets,terraced,flat,self_contain)
     st.success('The price is {}'. format(result))
     if st.button('About'):
-        st.text('Done by Rudo, Omega,Anesu, Blessings')
+        st.text('Done by Rudo, Omega, Prim, Anesu, Blessings')
         
     
 if __name__=='__main__':
