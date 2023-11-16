@@ -120,7 +120,7 @@ def  main():
         border-radius: 25px;
         padding:5px">
     <h2 style="color:white;
-        text-align:center;">Lagos House Prices Prediciton ML APP</h2>
+        text-align:center;">Nigerian House Prices Prediciton APP</h2>
     </div>
     """
     
@@ -161,7 +161,7 @@ def  main():
         result = predict_price(city,bedrooms,bathrooms,toilets,terraced,flat,self_contain)
     st.success('The price is {}'. format(result))
     if st.button('About'):
-        st.text('Adebo Dolapo')
+        st.text('Done by Rudo, Omega,Anesu, Blessings')
         
     
 if __name__=='__main__':
